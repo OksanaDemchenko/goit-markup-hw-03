@@ -147,17 +147,20 @@ img {
  }
 /* Header styles end */
 /* Hero section styles start */
-.hero-section {
-    
-}
 
+.hero-section {
+    padding: 188px 0;
+    background-color: #2e2f42;
+
+    text-align: center;
+    width: 100%;
+}
 .hero-container {
     max-width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #2e2f42;
-    padding: 188px 0;
     color: #fff;
     text-align: center;
 }
@@ -236,12 +239,17 @@ img {
 }
 
 .visually-hidden {
-    font-size: 0;
-    line-height: 0;
-    overflow: hidden;
-    margin: 0;
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
     padding: 0;
-
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    border: 0;
+    white-space: nowrap;
+  
 }
 /* Features section styles end */
 /* Team section styles start */
@@ -411,6 +419,7 @@ img {
     text-decoration: none;
     margin-bottom: 16px;
     display: inline-block;
+    
 }
 
 .footer-logo-accent {
