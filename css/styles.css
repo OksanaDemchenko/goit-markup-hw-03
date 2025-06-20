@@ -17,7 +17,11 @@ ol {
     list-style: none;
 }
 
-
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 main {
     max-width: 1440px;
@@ -432,7 +436,8 @@ img {
     clip: rect(0, 0, 0, 0);
     clip-path: inset(100%);
     border: 0;
-    white-space: nowrap;}
+    white-space: nowrap;
+}
 
 
 
