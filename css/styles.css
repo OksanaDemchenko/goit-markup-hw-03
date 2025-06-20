@@ -16,19 +16,9 @@ ol {
     padding-left: 0;
     list-style: none;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    clip-path: inset(50%);
-    border: 0;
-    white-space: nowrap;
 
-}
+
+
 main {
     max-width: 1440px;
     max-height: 3300px;
@@ -432,7 +422,17 @@ img {
     font-size: 16px;}
 /* Footer styles end */
    
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    border: 0;
+    white-space: nowrap;}
 
 
 
