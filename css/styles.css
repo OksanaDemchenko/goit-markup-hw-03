@@ -16,6 +16,19 @@ ol {
     padding-left: 0;
     list-style: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    border: 0;
+    white-space: nowrap;
+
+}
 main {
     max-width: 1440px;
     max-height: 3300px;
@@ -239,19 +252,7 @@ img {
     color: #434455;
 }
 
-.visually-hidden {
-    position: absolute !important;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    clip-path: inset(50%);
-    border: 0;
-    white-space: nowrap;
-  
-}
+
 /* Features section styles end */
 /* Team section styles start */
 
@@ -317,8 +318,9 @@ img {
 /* Team section styles end */
 /* Portfolio section styles start */
 
-.portfolio-section {
-    padding: 120px 0;
+.section .portfolio-section{
+    padding-top: 120px;
+    padding-bottom: 120px; 
 }
 .portfolio-container {
     max-width: 1158px;
@@ -400,6 +402,8 @@ img {
     margin: 0 auto;
     background-color: #2e2f42;
 }
+.footer a {
+    display: inline-block; }
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
